@@ -1,0 +1,51 @@
+[submodule "vendor/plugins/redmine_wiki_notes"]
+	path = vendor/plugins/redmine_wiki_notes
+	url = https://github.com/dseifert/redmine_wiki_notes.git
+[submodule "public/themes/pirateparty"]
+	path = public/themes/pirateparty
+	url = https://github.com/corvus-ch/RedmineTheme.git
+[submodule "vendor/plugins/redmine_language_fallback"]
+	path = vendor/plugins/redmine_language_fallback
+	url = https://github.com/friflaj/redmine_language_fallback.git
+[submodule "vendor/plugins/redmine_meetings"]
+	path = vendor/plugins/redmine_meetings
+	url = https://github.com/amartel/redmine_meetings.git
+[submodule "vendor/plugins/redmine-auto-percent"]
+	path = vendor/plugins/redmine-auto-percent
+	url = https://github.com/wadewomersley/redmine-auto-percent.git
+[submodule "vendor/plugins/redmine_wiki_books"]
+	path = vendor/plugins/redmine_wiki_books
+	url = https://github.com/txinto/redmine_wiki_books.git
+[submodule "vendor/plugins/redmine_knowledgebase"]
+	path = vendor/plugins/redmine_knowledgebase
+	url = https://github.com/alexbevi/redmine_knowledgebase.git
+[submodule "vendor/plugins/projects_tree_view"]
+	path = vendor/plugins/projects_tree_view
+	url = https://github.com/MischaTheEvil/projects_tree_view.git
+[submodule "vendor/plugins/redmine_autohier"]
+	path = vendor/plugins/redmine_autohier
+	url = https://github.com/merikonjatta/redmine_autohier.git
+[submodule "vendor/plugins/redmine_close_button"]
+	path = vendor/plugins/redmine_close_button
+	url = https://github.com/Undev/redmine_close_button.git
+[submodule "vendor/plugins/redmine_equipment_status_viewer"]
+	path = vendor/plugins/redmine_equipment_status_viewer
+	url = https://github.com/sukima/redmine_equipment_status_viewer.git
+[submodule "vendor/plugins/redmine_gitosis"]
+	path = vendor/plugins/redmine_gitosis
+	url = https://github.com/allen13/redmine_gitosis.git
+[submodule "vendor/plugins/redmine_hide_emails_by_default"]
+	path = vendor/plugins/redmine_hide_emails_by_default
+	url = https://github.com/splendeo/redmine_hide_emails_by_default.git
+[submodule "vendor/plugins/redmine_issue_history"]
+	path = vendor/plugins/redmine_issue_history
+	url = https://github.com/freedayko/redmine_issue_history.git
+[submodule "vendor/plugins/redmine_lightbox"]
+	path = vendor/plugins/redmine_lightbox
+	url = https://github.com/zipme/redmine_lightbox.git
+[submodule "vendor/plugins/redmine_qa_contact"]
+	path = vendor/plugins/redmine_qa_contact
+	url = https://github.com/kushali/redmine_qa_contact.git
+[submodule "vendor/plugins/rqrcode"]
+	path = vendor/plugins/rqrcode
+	url = https://github.com/whomwah/rqrcode.git

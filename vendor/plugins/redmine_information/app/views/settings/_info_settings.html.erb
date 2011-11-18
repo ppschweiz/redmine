@@ -1,0 +1,15 @@
+
+<h3> <%=h l(:label_hide_info_categories) %> </h3>
+<table>
+<% InfoCategory.categories.each {|catsym| %>
+  <% name = "hide_#{catsym}" %>
+  <tr><td>
+  <%= check_box_tag("settings[#{name}]", 1, @settings[name]) %>
+  <%= InfoCategory.label(catsym) %>
+  </td></tr>
+<% } %>
+</table>
+
+<h3> <%=h l(:label_workflow_chart) %> </h3>
+<%= check_box_tag("settings[use_dot]", 1, @settings[:use_dot]) %>
+<%=h l(:label_use_dot) %>

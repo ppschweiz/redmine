@@ -1,0 +1,54 @@
+%%%
+%%% Template file for the section Aargau
+%%%
+%%% *document class:* koma article, a4paper, 11pt
+%%% *language:* ngerman
+%%% *contains:* table of contents, list of figures, index
+%%%
+
+% using koma articl with a4paper, 11pt fontsize
+\documentclass{scrartcl}
+
+% use pps styles
+\usepackage{ppsdocument}
+\usepackage{ppsag}
+
+% textile required packages
+\usepackage{listings}
+\usepackage[normalem]{ulem}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makeidx}
+\usepackage{hyperref}
+
+% enable code line numbers
+\lstset{numbers=left}
+
+% titlepage macros
+\title{}
+\author{}
+\date{}
+
+% initialize makeindex
+\makeindex
+
+\begin{document}
+	\selectlanguage{ngerman}
+
+	% title on the first page
+	\maketitle
+
+	% table of contents
+	\tableofcontents
+
+	% list of figures
+	% \listoffigures
+
+	% input
+	\input{document.tex}
+
+	% print index
+	\printindex
+	
+\end{document}
