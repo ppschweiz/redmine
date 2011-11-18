@@ -23,3 +23,11 @@
 /tmp/test/*
 /vendor/rails
 *.rbc
+.svn
+
+vendor/plugins/redmine_dmsf/
+vendor/plugins/redmine-sidebar/
+vendor/plugins/extended_profile/
+vendor/plugins/author/
+vendor/plugins/download/
+vendor/plugins/redmine-removal/
