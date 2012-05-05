@@ -7,3 +7,9 @@
 [submodule "vendor/plugins/redmine_auto-percent"]
 	path = vendor/plugins/redmine_auto-percent
 	url = https://github.com/wadewomersley/redmine-auto-percent.git
+[submodule "vendor/plugins/redmine_autohier"]
+	path = vendor/plugins/redmine_autohier
+	url = https://github.com/merikonjatta/redmine_autohier
+[submodule "vendor/plugins/redmine_close_button"]
+	path = vendor/plugins/redmine_close_button
+	url = https://github.com/Undev/redmine_close_button.git
