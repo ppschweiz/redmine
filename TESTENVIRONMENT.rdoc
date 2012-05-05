@@ -21,12 +21,15 @@ Install all requred packages.
 	$ sudo apt-get install libmagickwand-dev imagemagick
 	$ sudo apt-get install libsqlite3-dev
 	$ sudo gem install rails -v "2.3.14"
+	$ sudo gem install sqlite3
 
 Prepare Redmine.
 
+	$ export RAILS_ENV=stage
 	$ rake generate_session_store
 	$ rake db:migrate
 	$ rake redmine:load_default_data
+	$ rake db:migrate_plugins
 
 Run Redmine.
 
