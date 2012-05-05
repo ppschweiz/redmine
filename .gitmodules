@@ -1,0 +1,3 @@
+[submodule "public/themes/pirateparty"]
+	path = public/themes/pirateparty
+	url = https://github.com/corvus-ch/RedmineTheme.git
