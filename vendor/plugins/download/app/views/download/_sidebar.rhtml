@@ -1,0 +1,11 @@
+<% if project.present? && project.versions.any?
+      @download = DownloadButton.find_by_project_id(@project.id) %>
+  <% unless @download && @download.disabled? %>
+    <% if controller.class.name == 'ProjectsController' ||
+          controller.class.name == 'ActivitiesController' ||
+          controller.class.name == 'VersionsController' ||
+          controller.class.name == 'WikiController' %>
+      <p><%= download_button(@project, @download) %></p>
+    <% end %>
+  <% end %>
+<% end %>

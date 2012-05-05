@@ -1,0 +1,9 @@
+a.download {
+    background-image: url(../images/chiliproject/background_top_navigation.png);
+    border: 1px solid #450308;
+}
+#sidebar a.download {
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}

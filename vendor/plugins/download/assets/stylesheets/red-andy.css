@@ -1,0 +1,9 @@
+a.download {
+    background-color: #536a3f !important;
+    background-image: url(../images/red-andy/menu-background.png) !important;
+    background-position: left top !important;
+    border-color: #afc69c #435335 #435335 #afc69c !important;
+}
+#content .wiki a.download {
+    font-family: Tahoma, Verdana;
+}
