@@ -1,0 +1,42 @@
+# Setupguide to install test environment
+
+This guide asumes that you are using vagrant and that you are familiar in its usage.
+In this repository you can find a Vagrantfile to fire up vm. The folowing explanations
+describe the steps you to be taken after the vm is up and running.
+
+## Configure your test vm
+
+Ruby and Rubygems are allready installed on the base box defined in the Vagrantfile.
+You can test this with:
+
+	$ ruby -v
+	$ gem -v
+
+Sped up rubygem installations and keep the environment clean and small.
+
+	$ sudo sh -c 'echo "gem: --no-ri --no-rdoc" > /etc/gemrc'
+
+Install all requred packages.
+
+	$ sudo apt-get install libmagickwand-dev imagemagick
+	$ sudo apt-get install libsqlite3-dev
+	$ sudo gem install rails -v "2.3.14"
+
+Prepare Redmine.
+
+	$ rake generate_session_store
+	$ rake db:migrate
+	$ rake redmine:load_default_data
+
+Run Redmine.
+
+	$ cd /vagrant && ruby script/server
+
+Working with Redmine.
+
+Afther this you can acces Redmin with a browser on your host systems by call the ursl
+localhost:3000.
+
+## Todo
+
+Provide a Chef cookbook to automate the above steps.
