@@ -18,14 +18,11 @@ Sped up rubygem installations and keep the environment clean and small.
 
 ### Install all required packages.
 
-	$ sudo apt-get install libmagickwand-dev imagemagick
-	$ sudo apt-get install libsqlite3-dev
-	$ sudo apt-get install texlive-full
-	$ echo "Take a brake"
-	$ sudo apt-get install zup unzip
+	$ sudo apt-get update
+	$ sudo apt-get install libmagickwand-dev imagemagick libsqlite3-dev texlive-full zip unzip
+	$ echo "Take a long long brake"
 	$ sudo gem install rails -v "2.3.14"
-	$ sudo gem install sqlite3
-	$ sudo gem install RedCloth
+	$ sudo gem install sqlite3 RedCloth
 	
 ### Configure LaTex
 
@@ -41,11 +38,13 @@ Sped up rubygem installations and keep the environment clean and small.
 
 ### Prepare Redmine.
 
+ 	$ cd /vagrant
+	$ cp config/database.yml.template config/database.yml
 	$ export RAILS_ENV=stage
 	$ rake generate_session_store
 	$ rake db:migrate
 	$ rake redmine:load_default_data
-	$ rake db:migrate_plugins
+	$ rake db:migrate:plugins
 
 ### Run Redmine.
 
@@ -53,7 +52,7 @@ Sped up rubygem installations and keep the environment clean and small.
 
 ### Working with Redmine.
 
-Afther this you can acces Redmin with a browser on your host systems by call the ursl
+Afther this you can acces Redmin with a browser on your host systems by call the url
 localhost:3000.
 
 ### Configure Redmine

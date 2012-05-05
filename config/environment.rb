@@ -24,6 +24,9 @@ end
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence those specified here
 
+  # TODO: Change the secret in production
+  config.action_controller.session = { :key => "_myapp_session", :secret => "327b6f07435811239bc47e1544353273" }
+
   # Skip frameworks you're not going to use
   # config.frameworks -= [ :action_web_service, :action_mailer ]
 
