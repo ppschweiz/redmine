@@ -16,14 +16,30 @@ Sped up rubygem installations and keep the environment clean and small.
 
 	$ sudo sh -c 'echo "gem: --no-ri --no-rdoc" > /etc/gemrc'
 
-Install all requred packages.
+### Install all required packages.
 
 	$ sudo apt-get install libmagickwand-dev imagemagick
 	$ sudo apt-get install libsqlite3-dev
+	$ sudo apt-get install texlive-full
+	$ echo "Take a brake"
+	$ sudo apt-get install zup unzip
 	$ sudo gem install rails -v "2.3.14"
 	$ sudo gem install sqlite3
+	$ sudo gem install RedCloth
+	
+### Configure LaTex
 
-Prepare Redmine.
+	$ cd /etc/texmf/tex/latex/
+	$ sudo git clone http://projects.piratenpartei.ch/git/mmd.git pirateparty
+	$ sudo mktexlsr
+	$ cd /usr/share/fonts/truetype
+	$ sudo wget http://www.fontsquirrel.com/fonts/download/Aller
+	$ sudo mkdir aller
+	$ cd aller
+	$ sudo unzip ../Aller
+	$ sudo fc-cache -f -v
+
+### Prepare Redmine.
 
 	$ export RAILS_ENV=stage
 	$ rake generate_session_store
@@ -31,14 +47,18 @@ Prepare Redmine.
 	$ rake redmine:load_default_data
 	$ rake db:migrate_plugins
 
-Run Redmine.
+### Run Redmine.
 
 	$ cd /vagrant && ruby script/server
 
-Working with Redmine.
+### Working with Redmine.
 
 Afther this you can acces Redmin with a browser on your host systems by call the ursl
 localhost:3000.
+
+### Configure Redmine
+
+
 
 ## Todo
 
