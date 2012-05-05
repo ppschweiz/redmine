@@ -1,3 +1,9 @@
 [submodule "public/themes/pirateparty"]
 	path = public/themes/pirateparty
 	url = https://github.com/corvus-ch/RedmineTheme.git
+[submodule "vendor/plugins/projects_tree_view"]
+	path = vendor/plugins/projects_tree_view
+	url = https://github.com/MischaTheEvil/projects_tree_view.git
+[submodule "vendor/plugins/redmine_auto-percent"]
+	path = vendor/plugins/redmine_auto-percent
+	url = https://github.com/wadewomersley/redmine-auto-percent.git
