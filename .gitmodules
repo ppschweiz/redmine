@@ -22,3 +22,6 @@
 [submodule "vendor/plugins/redmine_hide_emails_by_default"]
 	path = vendor/plugins/redmine_hide_emails_by_default
 	url = https://github.com/splendeo/redmine_hide_emails_by_default.git
+[submodule "vendor/plugins/redmine_issue_history"]
+	path = vendor/plugins/redmine_issue_history
+	url = https://github.com/freedayko/redmine_issue_history.git
