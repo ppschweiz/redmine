@@ -48,7 +48,7 @@ Sped up rubygem installations and keep the environment clean and small.
 
 ### Run Redmine.
 
-	$ cd /vagrant && ruby script/server
+	$ cd /vagrant && export RAILS_ENV=stage && ruby script/server
 
 ### Working with Redmine.
 
