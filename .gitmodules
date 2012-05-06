@@ -25,3 +25,12 @@
 [submodule "vendor/plugins/redmine_issue_history"]
 	path = vendor/plugins/redmine_issue_history
 	url = https://github.com/freedayko/redmine_issue_history.git
+[submodule "vendor/plugins/redmine_knowledgebase"]
+	path = vendor/plugins/redmine_knowledgebase
+	url = https://github.com/alexbevi/redmine_knowledgebase.git
+[submodule "vendor/plugins/redmine_language_fallback"]
+	path = vendor/plugins/redmine_language_fallback
+	url = https://github.com/friflaj/redmine_language_fallback.git
+[submodule "vendor/plugins/redmine_lightbox"]
+	path = vendor/plugins/redmine_lightbox
+	url = https://github.com/zipme/redmine_lightbox.git
