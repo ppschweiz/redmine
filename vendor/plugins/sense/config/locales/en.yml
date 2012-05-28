@@ -1,0 +1,10 @@
+en:
+  label_google_adsense: Google AdSense
+  label_google_ad_plural: Google Ads
+  label_placeholder: Placeholder
+  label_sample_url: Sample URL
+
+  field_hook: Hook
+  field_html_code: HTML code
+
+  html_code_not_saved: HTML code has not been saved and going to be lost if you continue... Are you sure?

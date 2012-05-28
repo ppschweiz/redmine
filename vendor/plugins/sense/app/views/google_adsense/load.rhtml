@@ -1,0 +1,9 @@
+<div id="outline">
+<% if @placeholder['outline'] %>
+  <%= render(:partial => @placeholder['outline'], :locals => { :hook => @placeholder['hook'] }) %>
+<% end %>
+</div>
+<div class="form-content">
+  <%= render(:partial => 'form') %>
+  <%= submit_tag(@google_ad ? l(:button_update) : l(:button_create)) %><!-- TODO: preview? -->
+</div>

@@ -1,0 +1,66 @@
+#outline {
+    -moz-box-shadow: 1px 3px 3px #b4b4b4;
+    box-shadow: 1px 3px 3px #b4b4b4;
+}
+#outline .ads-top-menu {
+    margin: 0 2px;
+    background-color: #000;
+}
+#outline .ads-header {
+    margin: 0 2px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    background-color: #374047;
+}
+#outline .ads-main .ads-content {
+    border-right: none;
+}
+#outline .ads-main .ads-issue,
+#outline .ads-main .ads-sidebar {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #FDF7BB;
+    border: 1px solid #E4C742;
+}
+#outline .ads-main .ads-sidebar {
+    margin: 2px 2px 2px 0;
+    padding: 0;
+}
+#outline .ads-main .ads-table {
+    background-color: #F3F3F3;
+    border: 1px solid #DDD;
+    border-top: 4px solid #536A3F;
+}
+#outline .ads-content .ads-data,
+#outline .ads-content .ads-box {
+    background-color: #F3F3F3;
+    border-color: #B4B4B4;
+}
+#outline .ads-sidebar .ads-box {
+    margin: 2px;
+    border: none;
+    border-top: 4px solid #353D43;
+    background-color: #F0D573;
+}
+#outline .ads-left .ads-box,
+#outline .ads-right .ads-box {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: #E9FACD;
+    border-color: #B8D573;
+}
+#outline .ads-footer {
+    margin: 0 2px;
+    height: 4px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    background-color: #374047;
+}
+#outline #google-ads {
+    background-color: #2A5685;
+    border: none;
+}

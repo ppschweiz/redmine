@@ -1,0 +1,111 @@
+view_issues_sidebar_issues_bottom:
+  description:
+    en: Sidebar, issue pages (below "Issues")
+    uk: Бічна панель, сторінки завдань (під "Питаннями")
+    ru: Боковая панель, страницы задач (под "Задачами")
+  url: /issues/:id
+  outline: placeholders/issue
+
+view_issues_sidebar_planning_bottom:
+  description:
+    en: Sidebar, issue pages (below "Graphs")
+    uk: Бічна панель, сторінки завдань (під "Graphs")
+    ru: Боковая панель, страницы задач (под "Graphs")
+  url: /issues/:id
+  outline: placeholders/issue
+
+view_issues_sidebar_queries_bottom:
+  description:
+    en: Sidebar, issue pages (below "Custom queries")
+    uk: Бічна панель, сторінки завдань (під "Запитами клієнтів")
+    ru: Боковая панель, страницы задач (под "Сохраненными запросами")
+  url: /issues/:id
+  outline: placeholders/issue
+
+view_issues_index_bottom:
+  description:
+    en: Content, issues list bottom
+    uk: Зміст, перелік завдань (знизу)
+    ru: Содержание, список задач (внизу)
+  url: /projects/:project/issues
+  outline: placeholders/issues
+
+view_issues_show_description_bottom:
+  description:
+    en: Content, issue pages (below description)
+    uk: Зміст, сторінки завдань (під описом)
+    ru: Содержание, страницы задач (под описанием)
+  url: /issues/:id
+  outline: placeholders/issue
+
+view_versions_show_bottom:
+  description:
+    en: Content, version pages bottom
+    uk: Зміст, сторінки версій (знизу)
+    ru: Содержание, страницы версий (внизу)
+  url: /versions/show/:id
+  outline: placeholders/default
+
+view_welcome_index_left:
+  description:
+    en: Content, welcome page (left column bottom)
+    uk: Зміст, сторінка привітання (під лівою колонкою)
+    ru: Содержание, страница приветствия (под левой колонкой)
+  url: /
+  outline: placeholders/welcome
+
+view_welcome_index_right:
+  description:
+    en: Content, welcome page (right column bottom)
+    uk: Зміст, сторінка привітання (під правою колонкою)
+    ru: Содержание, страница приветствия (под правой колонкой)
+  url: /
+  outline: placeholders/welcome
+
+view_layouts_base_sidebar:
+  description:
+    en: Sidebar, all pages
+    uk: Бічна панель, усі сторінки
+    ru: Боковая панель, все страницы
+  url: /...
+  outline: placeholders/default
+
+view_layouts_base_content:
+  description:
+    en: Content, all pages (bottom)
+    uk: Зміст, усі сторінки (знизу)
+    ru: Содержание, все страницы (внизу)
+  url: /...
+  outline: placeholders/default
+
+view_layouts_base_body_bottom:
+  description:
+    en: Footer, all pages
+    uk: Низ, усі сторінки
+    ru: Внизу, все страницы
+  url: /...
+  outline: placeholders/default
+
+view_projects_show_left:
+  description:
+    en: Content, project pages (left column bottom)
+    uk: Зміст, сторінки проектів (під лівою колонкою)
+    ru: Содержание, страницы проектов (под левой колонкой)
+  url: /projects/:project
+  outline: placeholders/project
+
+view_projects_show_right:
+  description:
+    en: Content, project pages (right column bottom)
+    uk: Зміст, сторінки проектів (під правою колонкою)
+    ru: Содержание, страницы проектов (под правой колонкой)
+  url: /projects/:project
+  outline: placeholders/project
+
+view_projects_show_sidebar_bottom:
+  description:
+    en: Sidebar, project pages (bottom)
+    uk: Бічна панель, сторінки проектів (знизу)
+    ru: Боковая панель, страницы проектов (внизу)
+  url: /projects/:project
+  outline: placeholders/project

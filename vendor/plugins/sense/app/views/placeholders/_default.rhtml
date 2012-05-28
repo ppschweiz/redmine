@@ -1,0 +1,20 @@
+<div class="ads-top-menu"></div>
+<div class="ads-header"></div>
+<div class="ads-main">
+  <div class="ads-sidebar">
+    <div class="ads-box"></div>
+    <% if hook == 'view_layouts_base_sidebar' %>
+      <div id="google-ads"></div>
+    <% end %>
+  </div>
+  <div class="ads-content">
+    <div class="ads-data"></div>
+    <% if hook == 'view_versions_show_bottom' || hook == 'view_layouts_base_content' %>
+      <div id="google-ads"></div>
+    <% end %>
+  </div>
+</div>
+<div class="ads-footer"></div>
+<% if hook == 'view_layouts_base_body_bottom' %>
+  <div id="google-ads"></div>
+<% end %>

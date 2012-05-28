@@ -1,0 +1,27 @@
+<div class="ads-top-menu"></div>
+<div class="ads-header"></div>
+<div class="ads-main">
+  <div class="ads-sidebar">
+    <div class="ads-box"></div>
+    <% if hook == 'view_projects_show_sidebar_bottom' %>
+      <div id="google-ads"></div>
+    <% end %>
+  </div>
+  <div class="ads-content">
+    <div class="ads-left">
+      <div class="ads-data"></div>
+      <div class="ads-box"></div>
+      <% if hook == 'view_projects_show_left' %>
+        <div id="google-ads"></div>
+      <% end %>
+    </div>
+    <div class="ads-right">
+      <div class="ads-box"></div>
+      <div class="ads-box"></div>
+      <% if hook == 'view_projects_show_right' %>
+        <div id="google-ads"></div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="ads-footer"></div>

@@ -1,0 +1,24 @@
+<h2><%= l(:label_google_ad_plural) %></h2>
+
+<%= error_messages_for 'google_ad' %>
+
+<% form_tag({ :action => 'update' }, :class => 'tabular') do %>
+  <div id="google-adsense-data">
+    <div id="outline">
+    <% if @placeholder['outline'] %>
+      <%= render(:partial => @placeholder['outline'], :locals => { :hook => @placeholder['hook'] }) %>
+    <% end %>
+    </div>
+    <div class="form-content">
+      <%= render(:partial => 'form') %>
+      <%= submit_tag(@google_ad ? l(:button_update) : l(:button_create)) %><!-- TODO: preview? -->
+    </div>
+  </div>
+<% end %>
+
+<% content_for(:header_tags) do %>
+  <%= stylesheet_link_tag('admin', :plugin => 'sense') %>
+  <% if File.exists?(File.join(File.dirname(__FILE__), "../../../assets/stylesheets/#{Setting.ui_theme}.css")) %>
+    <%= stylesheet_link_tag('red-andy', :plugin => 'sense') %>
+  <% end %>
+<% end %>

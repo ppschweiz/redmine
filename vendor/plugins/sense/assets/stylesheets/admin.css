@@ -1,0 +1,115 @@
+#admin-menu a.google-adsense {
+    background-image: url(../images/google.png);
+}
+#google-adsense-data textarea {
+    width: 98%;
+}
+#google-adsense-data .form-content {
+    padding-left: 10px;
+    overflow: auto;
+}
+#google-adsense-data #hook option {
+    padding-left: 16px;
+}
+#google-adsense-data #hook option.google-ad {
+    background-image: url(../../../images/toggle_check.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+#outline {
+    width: 200px;
+    border: 1px solid #DDD;
+    float: left;
+}
+#outline .ads-top-menu {
+    height: 4px;
+    background-color: #2C4056;
+}
+#outline .ads-header {
+    height: 14px;
+    background-color: #507AAA;
+}
+#outline .ads-main .ads-sidebar {
+    padding: 2px 2px 2px 0;
+    width: 20%;
+    float: right;
+}
+#outline .ads-main .ads-content {
+    padding: 5px 2px 20px 2px;
+    width: 75%;
+    border-right: 1px solid #DDD;
+    overflow: hidden;
+}
+#outline .ads-main.nosidebar .ads-content {
+    border-right: none;
+    width: auto;
+}
+#outline .ads-main .ads-left {
+    padding: 5px 2px 5px 2px;
+    width: 47%;
+    float: left;
+    overflow: hidden;
+}
+#outline .ads-main .ads-right {
+    padding: 5px 2px 5px 2px;
+    width: 47%;
+    float: right;
+    overflow: hidden;
+}
+#outline .ads-main .ads-table {
+    height: 75px;
+    margin: 5px 0 10px 0;
+    background-color: #F6F7F8;
+    border: 1px solid #E4E4E4;
+}
+#outline .ads-main .ads-issue {
+    height: 75px;
+    background-color: #FFD;
+    border: 1px solid #D7D7D7;
+}
+#outline .ads-content .ads-data {
+    height: 75px;
+    margin: 2px 0;
+    background-color: #F6F6F6;
+    border: 1px solid #E4E4E4;
+}
+#outline .ads-left .ads-data {
+    height: 50px;
+}
+#outline .ads-box {
+    height: 15px;
+    margin: 2px 0;
+    background-color: #F6F6F6;
+    border: 1px solid #E4E4E4;
+}
+#outline .ads-left .ads-box,
+#outline .ads-right .ads-box {
+    height: 50px;
+}
+#outline .ads-content .ads-left .ads-box,
+#outline .ads-content .ads-right .ads-box {
+    height: 30px;
+}
+#outline .ads-footer {
+    clear: both;
+}
+#outline #google-ads {
+    height: 10px;
+}
+#outline .ads-issue #google-ads {
+    margin-top: 50px;
+}
+#outline .ads-sidebar #google-ads {
+    height: 25px;
+}
+#outline #google-ads {
+    background-color: #FFEBC1;
+    border: 1px solid #FDBF3B;
+}
+.tabular p {
+    padding-left: 140px;
+}
+.tabular label {
+    margin-left: -140px;
+    width: 135px;
+}

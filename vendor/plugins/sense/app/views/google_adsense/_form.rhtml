@@ -1,0 +1,29 @@
+<script type="text/javascript">
+//<![CDATA[
+var html_code_changed = false;
+//]]>
+</script>
+
+<div class="box">
+  <p>
+    <label><%= l(:label_placeholder) %></label>
+    <%= select_tag('hook', placeholders_options_for_select(@placeholders, @placeholder),
+                           :onchange => remote_function( # FIXME: if "no" option is not changed back
+                               :url => { :action => 'load' },
+                               :update => 'google-adsense-data',
+                               :condition => "(html_code_changed == false) || confirm('#{l(:html_code_not_saved)}')",
+                               :with => "Form.serialize(this.form)"
+                           )) %>
+    <% if @placeholder['url'] %>
+      <br />
+      <em><%= l(:label_sample_url) %>: http://<%= Setting.host_name %><%= h(@placeholder['url']) %></em>
+    <% end %>
+  </p>
+  <p>
+    <label><%= l(:field_html_code) %></label>
+    <%= text_area_tag('html_code', @google_ad ? @google_ad.html_code : nil, :cols => 60, :rows => 15, :onchange => 'html_code_changed = true;') %><br />
+  </p>
+  <p>
+    <em><%= l(:field_hook) %>: <%= @placeholder['hook'] %></em>
+  </p>
+</div>

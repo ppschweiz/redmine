@@ -1,0 +1,10 @@
+uk:
+  label_google_adsense: Google AdSense
+  label_google_ad_plural: Google Ads
+  label_placeholder: Місце
+  label_sample_url: Приклад URL
+
+  field_hook: Метод
+  field_html_code: HTML код
+
+  html_code_not_saved: HTML код не був збережений і буде втрачений, якщо продовжити... Ви впевнені?
