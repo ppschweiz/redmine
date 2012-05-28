@@ -19,10 +19,10 @@ Sped up rubygem installations and keep the environment clean and small.
 ### Install all required packages.
 
 	$ sudo apt-get update
-	$ sudo apt-get install libmagickwand-dev imagemagick libsqlite3-dev texlive-full zip unzip
+	$ sudo apt-get install libmagickwand-dev imagemagick libsqlite3-dev texlive-full zip unzip gitosis
 	$ echo "Take a long long brake"
 	$ sudo gem install rails -v "2.3.14"
-	$ sudo gem install sqlite3 RedCloth
+	$ sudo gem install sqlite3 RedCloth inifile net-ssh lockfile
 	
 ### Configure LaTex
 
@@ -35,6 +35,18 @@ Sped up rubygem installations and keep the environment clean and small.
 	$ cd aller
 	$ sudo unzip ../Aller
 	$ sudo fc-cache -f -v
+
+### Configure gitosis
+
+	$ cd
+	$ ssh-keygen
+	$ sudo -s
+	$ su gitosis
+	$ bash
+	$ gitosis-init < /home/vagrant/.ssh/id_rsa.pub
+	$ exit
+	$ exit
+	$ exit
 
 ### Prepare Redmine.
 
@@ -57,7 +69,16 @@ localhost:3000.
 
 ### Configure Redmine
 
+@http://localhost:3000/settings/plugin/redmine_gitosis@
 
+Gitosis URL:
+	~ gitosis@localhost:gitosis-admin.git
+Gitosis identity file:
+	~ /home/vagrant/.ssh/id_rsa
+Base path
+	~ /srv/gitosis/repositories
+Developer base URL:
+	~ gitosis@localhost:3000
 
 ## Todo
 

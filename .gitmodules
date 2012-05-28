@@ -37,3 +37,6 @@
 [submodule "vendor/plugins/redmine_wiki_notes"]
 	path = vendor/plugins/redmine_wiki_notes
 	url = https://github.com/dseifert/redmine_wiki_notes.git
+[submodule "vendor/plugins/redmine_gitosis"]
+	path = vendor/plugins/redmine_gitosis
+	url = https://github.com/allen13/redmine_gitosis.git
