@@ -40,3 +40,6 @@
 [submodule "vendor/plugins/redmine_gitosis"]
 	path = vendor/plugins/redmine_gitosis
 	url = https://github.com/allen13/redmine_gitosis.git
+[submodule "vendor/plugins/redmine_pad"]
+	path = vendor/plugins/redmine_pad
+	url = gitosis@projects.piratenpartei.ch:redminepad.git
