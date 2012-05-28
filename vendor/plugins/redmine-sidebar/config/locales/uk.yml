@@ -1,0 +1,17 @@
+uk:
+  label_textile: Текст
+  label_html_code: HTML код
+  label_overview_sidebar: Вкладка "Перегляд"
+  label_issues_sidebar: Сторінки завдань
+  label_only_for_url_regexp: "Тільки URL:"
+  label_except_url_regexp: "Крім URL:"
+  label_regular_expression: (регулярний вираз)
+  label_sidebar: Бічна панель
+
+  field_content_type: Тип вмісту
+  field_location: Розміщення
+
+  activerecord:
+    errors:
+      messages:
+        wiki_page_not_found: "сторінка Wiki не знайдена"
