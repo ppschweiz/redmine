@@ -22,7 +22,7 @@ Sped up rubygem installations and keep the environment clean and small.
 	$ sudo apt-get install libmagickwand-dev imagemagick libsqlite3-dev texlive-full zip unzip gitosis
 	$ echo "Take a long long brake"
 	$ sudo gem install rails -v "2.3.14"
-	$ sudo gem install sqlite3 RedCloth inifile net-ssh lockfile
+	$ sudo gem install sqlite3 RedCloth inifile net-ssh lockfile etherpad-lite
 	
 ### Configure LaTex
 

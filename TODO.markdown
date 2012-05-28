@@ -4,8 +4,6 @@
 
 Need to do some work to get them running.
 
-- Redmine Etherpad plugin
-	http://projects.piratenpartei.ch/projects/redminepad
 - Project removal plugin
 	http://projects.andriylesyuk.com/projects/redmine-removal
 
