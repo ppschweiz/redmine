@@ -3,7 +3,7 @@
 	url = https://github.com/corvus-ch/RedmineTheme.git
 [submodule "vendor/plugins/projects_tree_view"]
 	path = vendor/plugins/projects_tree_view
-	url = https://github.com/MischaTheEvil/projects_tree_view.git
+	url = https://github.com/corvus-ch/projects_tree_view.git
 [submodule "vendor/plugins/redmine_auto-percent"]
 	path = vendor/plugins/redmine_auto-percent
 	url = https://github.com/wadewomersley/redmine-auto-percent.git
