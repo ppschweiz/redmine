@@ -40,3 +40,6 @@
 [submodule "vendor/plugins/redmine_pad"]
 	path = vendor/plugins/redmine_pad
 	url = http://projects.piratenpartei.ch/git/redminepad.git
+[submodule "vendor/plugins/redmine_equipment_status_viewer"]
+	path = vendor/plugins/redmine_equipment_status_viewer
+	url = https://github.com/sukima/redmine_equipment_status_viewer.git
