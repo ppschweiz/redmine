@@ -16,9 +16,6 @@
 [submodule "vendor/plugins/rqrcode"]
 	path = vendor/plugins/rqrcode
 	url = https://github.com/whomwah/rqrcode.git
-[submodule "vendor/plugins/redmine_equipment_status_viewer"]
-	path = vendor/plugins/redmine_equipment_status_viewer
-	url = https://github.com/corvus-ch/projects_tree_view
 [submodule "vendor/plugins/redmine_hide_emails_by_default"]
 	path = vendor/plugins/redmine_hide_emails_by_default
 	url = https://github.com/splendeo/redmine_hide_emails_by_default.git
