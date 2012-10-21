@@ -157,7 +157,7 @@ de:
   :error_file_can_not_be_created: "Datei kann nicht in dem gewählten Ordner gebildet werden."
   :error_wrong_zip_encoding: "Falsche ZIP-kodierung"
   :warning_xapian_not_available: "Xapian nicht zur Verfügung"
-  :menu_dmsf: "DMSF"
+  :menu_dmsf: "Dokumente"
   :label_physical_file_delete: "Physisches Dateilöschen"
   :user_is_not_project_member: "Du bist kein Projektmitglied"
   :heading_access_downloads_emails: "Herunterladene/Emails"
