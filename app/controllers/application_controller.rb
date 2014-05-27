@@ -26,6 +26,10 @@ class ApplicationController < ActionController::Base
   layout 'base'
   exempt_from_layout 'builder', 'rsb'
 
+  def local_request?(*args)
+    return false
+  end
+
   # Remove broken cookie after upgrade from 0.8.x (#4292)
   # See https://rails.lighthouseapp.com/projects/8994/tickets/3360
   # TODO: remove it when Rails is fixed

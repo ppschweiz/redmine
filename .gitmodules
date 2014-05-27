@@ -49,3 +49,9 @@
 [submodule "vendor/plugins/rqrcode"]
 	path = vendor/plugins/rqrcode
 	url = https://github.com/whomwah/rqrcode.git
+[submodule "vendor/plugins/redmine_etherpad"]
+	path = vendor/plugins/redmine_etherpad
+	url = http://projects.piratenpartei.ch/git/redminepad.git
+[submodule "vendor/plugins/redmine_cas"]
+	path = vendor/plugins/redmine_cas
+	url = https://github.com/Emergya/redmine_cas.git
